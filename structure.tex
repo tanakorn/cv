@@ -54,7 +54,7 @@ SmallCapsFeatures = {Letters = SmallCaps}
 
 % Non-indenting itemize
 \newenvironment{itemize-noindent}
-{\setlength{\leftmargini}{0em}\begin{itemize}}
+{\setlength{\leftmargini}{1em}\begin{itemize}}
 {\end{itemize}}
 
 % Text width for tabbing environments
@@ -77,17 +77,13 @@ SmallCapsFeatures = {Letters = SmallCaps}
 %	JOB COMMAND
 %----------------------------------------------------------------------------------------
 
-\newcommand{\job}[6]{
+\newcommand{\job}[5]{
 \begin{tabbing}
-\hspace{2cm} \= \kill
-\textbf{#1} \> \href{#4}{#3} \\
-\textbf{#2} \>\+ \textit{#5} \\
-\begin{minipage}{\smallertextwidth}
-\vspace{2mm}
-#6
-\end{minipage}
+\hspace{2.5cm} \= \kill
+\textbf{#1} \> \textbf{#3}, #4 \\
+\textbf{#2} \>\+ #5
 \end{tabbing}
-\vspace{2mm}
+%\vspace{2mm}
 }
 
 %----------------------------------------------------------------------------------------
