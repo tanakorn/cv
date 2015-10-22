@@ -21,6 +21,8 @@
 
 \documentclass[10pt]{article} % Default font size
 
+\usepackage{tabularx}
+
 \input{structure.tex} % Include the file specifying document layout
 
 %----------------------------------------------------------------------------------------
@@ -82,7 +84,20 @@
 }
 
 %----------------------------------------------------------------------------------------
-%	EMPLOYMENT HISTORY SECTION
+%	APPLICABLE COURSEWORK
+%----------------------------------------------------------------------------------------
+
+\section{Applicable Coursework}
+
+\begin{tabularx}{0.8\textwidth}{ X X }
+ Discrete Mathematics & Algorithms  \\
+ Machine Learning & Computational Linguistics \\
+ Computer Architecture & Advanced Operating Systems  \\
+ Data-Intensive Computing & Cloud Computing  \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH INTERESTS
 %----------------------------------------------------------------------------------------
 
 \section{Research Interests}
@@ -98,6 +113,12 @@
 %----------------------------------------------------------------------------------------
 
 \section{Work Experiences}
+
+\if 0
+\job{Oct 2015}{}{Guest Lecturer}
+{University of Chicago, Chicago, IL, USA}
+{Guest lecturer in Advanced Operating Systems course} 
+\fi
 
 \job{Apr 2013 -}{Present}{Research Assistant}
 {University of Chicago, Chicago, IL, USA}
@@ -360,6 +381,25 @@ We build a cloud storage appliance for offloading user file from Wavify's
 mail server product. But it also can be employed for enterprise multi-purpose
 private cloud storage, with an affordable, scalable storage options.
 \end{minipage}
+\end{tabbing}
+
+%----------------------------------------------------------------------------------------
+%	ADVISING SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Advising}
+
+I am co-advising the followning students along with my advisor. I meet with them
+every week to direct them in research. Some are students in Univeristy at
+Chicago, and some are remote students in Indonesia.
+\begin{tabbing}
+\hspace{4cm} \= \hspace{1cm} \= \kill
+\textbf{UChicago PhD} \> (1) \> Jeffrey Ferrari Lukman\\
+\textbf{UChicago Masters} \> (2) \> Bo Fu and Murphy Zhang\\
+\textbf{UChicago Undergrad} \> (1) \> Xue Hng Chuang\\
+\textbf{Remote Students} \> (4) \> Dikaimin Simon (Surya University),\\
+\> \>Danial Heri Kurniawan and Satria Priambada (Bandung Institute of Technology)\\
+\> \>Khoirul Hasin (Sepuluh Nopember Institute of Technology)
 \end{tabbing}
 
 
