@@ -320,11 +320,8 @@ Symposium on Cloud Computing (SoCC)}, 2013
 2014 - 2016 \>\+ \textbf{\textsc{SCk}: Scale-Checking and Debugging Scalability Bugs on One Machine} (In submission) \\
 \begin{minipage}{\smallertextwidth}
 I present a scale-check methodology that empowers developers to check
-scalability of P2P distributed systems implementations and helps them reproduce
-and debug scalability bugs on one machine. In this work, I am introducing
-scale-checkable system architecture and emulation techniques to emulate hardware
-resources such that the we can colocate multiple nodes (e.g., 500 nodes) on one
-machine, and individual nodes behave as if they run on independent machines.
+scalability of distributed systems implementations and helps them reproduce
+and debug scalability bugs economically on one machine. 
 \end{minipage}
 \end{tabbing}
 
@@ -332,13 +329,10 @@ machine, and individual nodes behave as if they run on independent machines.
 \hspace{2.5cm} \= \kill
 2015 \>\+ \href{http://ucare.cs.uchicago.edu/pdf/asplos16-TaxDC.pdf}{\textbf{TaxDC: A Comprehensive Taxonomy of Heisenbugs in Cloud Distributed Systems}} (\textit{ASPLOS '16}) \\
 \begin{minipage}{\smallertextwidth}
-I as one of the project leaders, studied 104 distributed concurrency bugs (DC
-bugs) from four widely-deployed cloud systems, Cassandra, Hadoop MapReduce,
-HBase, and ZooKeeper. The study covers DC-bug characteristics along several axes
-of analysis such as the triggering condition and input preconditions, failure
-symptoms, and fix strategies, collectively stored as 2,083 classification labels.
-This study is the largest and most comprehensive taxonomy of DC bugs in cloud
-systems.
+I as one of the project leaders, conducted the largest and most comprehensive
+study on distributed concurrency bugs (DC bugs) from four widely-deployed cloud
+systems, Cassandra, Hadoop MapReduce, HBase, and ZooKeeper, and introduced a
+complete taxonomy of DC bugs in cloud systems.
 \end{minipage}
 \end{tabbing}
 
@@ -349,11 +343,7 @@ systems.
 \begin{minipage}{\smallertextwidth}
 I introduced semantic-aware model checking (SAMC), a white-box principle that
 takes simple semantic information of the target system and incorporates the
-knowledge into state-space reduction policies. I built the prototype of SAMC
-from scratch for a total of 10,886 lines of code, and integrated it to three
-cloud systems, Cassandra, Hadoop MapReduce, and ZooKeeper. SAMC can reproduce
-old bugs beneath deeply in these systems faster than other reduction policies up
-to 271x (33x on average), and it can find two new bugs in these systems.
+knowledge into state-space reduction policies. 
 \end{minipage}
 \end{tabbing}
 
@@ -361,12 +351,11 @@ to 271x (33x on average), and it can find two new bugs in these systems.
 \hspace{2.5cm} \= \kill
 2014 \>\+ \href{http://ucare.cs.uchicago.edu/pdf/socc14-drill.pdf}{\textbf{The Case for Drill-Ready Cloud Computing}} (\textit{SoCC '14}) \\
 \begin{minipage}{\smallertextwidth}
-In this work, I explored the fundamental question: \dblquote{\textit{how can we ensure
-that cloud services work robustly against many failure scenarios in real
-deployments?}}. And to further the current answers, I proposed a vision of a new
-reliability paradigm, the Drill-Ready Cloud Computing. The online testing
-framework that provides safety, efficiency, usability, and generality for
-testing cloud systems.
+I explored the fundamental question: \dblquote{\textit{how can we ensure that
+cloud services work robustly against many failure scenarios in real
+deployments?}}, and proposed a vision of a new reliability paradigm, the
+Drill-Ready Cloud Computing, an online testing framework that provides safety,
+efficiency, usability, and generality.
 \end{minipage}
 \end{tabbing}
 
@@ -374,12 +363,10 @@ testing cloud systems.
 \hspace{2.5cm} \= \kill
 2013 - 2014 \>\+ \href{http://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf}{\textbf{What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems}} (\textit{SoCC '14}) \\
 \begin{minipage}{\smallertextwidth}
-Our group and I comprehensively studied the issues in development and deployment of six
-popular cloud systems, Hadoop MapReduce, HDFS, HBase, Cassandra, ZooKeeper and
-Flume. We reviewed in total 21,399 submitted issues within a three-year period
-(2011- 2014), and performed a deep analysis of 3,655 \dblquote{\textit{vital}} issues among these
-issues with a set of detailed classifications. We also derived numerous
-interesting insights unique to cloud systems. 
+Our group and I comprehensively studied the issues in development and
+deployment of six popular cloud-scale distributed systems, Hadoop MapReduce,
+HDFS, HBase, Cassandra, ZooKeeper and Flume. This is the largest bug study for
+cloud-scale systems (3,655 issues).
 \end{minipage}
 \end{tabbing}
 
@@ -389,11 +376,9 @@ interesting insights unique to cloud systems.
 %\>\+ (\textit{SoCC 2013}) \\
 \begin{minipage}{\smallertextwidth}
 Our group and I studied one often-overlooked cause of performance failure:
-"\textit{limpware}", limping hardware whose performance degrades significantly
-compares to its specification. We assembled a set of benchmarks that combine
-data-intensive load and limpware injections to show the impact of limpware on
-five cloud systems, Cassandra, Hadoop, HBase, HDFS, and ZooKeeper. We
-also unearthed why the systems cannot tolerate limpware.
+``\textit{limpware}'', limping hardware whose performance degrades significantly
+compares to its specification. The study showed impacts of limpware on
+five cloud systems, Cassandra, Hadoop, HBase, HDFS, and ZooKeeper. 
 \end{minipage}
 \end{tabbing}
 
@@ -414,8 +399,7 @@ back to Wavify NextStor, Wavify's cloud storage, for backup.
 2010 - 2011 \>\+ \textbf{Wavify NextStor} (\textit{Wavify Inc.}) \\
 \begin{minipage}{\smallertextwidth}
 I built a cloud storage appliance for offloading users' files from Wavify's
-mail server product. It also can be employed for enterprise multi-purpose
-private cloud storage, with an affordable, scalable storage options.
+mail server product. 
 \end{minipage}
 \end{tabbing}
 
